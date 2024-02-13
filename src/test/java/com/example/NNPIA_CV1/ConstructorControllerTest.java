@@ -1,17 +1,21 @@
 package com.example.NNPIA_CV1;
 
-import controllers.ConstructorController;
-import org.junit.jupiter.api.BeforeEach;
+import com.example.NNPIA_CV1.controllers.ConstructorController;
 import org.junit.jupiter.api.Test;
-import services.GreetingService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
+
+@SpringBootTest
 public class ConstructorControllerTest {
+
+    @Autowired
     ConstructorController constructorController;
 
-    @BeforeEach
-    void setUp(){
-        constructorController = new ConstructorController(new GreetingService());
-    }
+//    @BeforeEach
+//    void setUp(){
+//        constructorController = new ConstructorController(new GreetingService());
+//    }
 
     @Test
     void SayHello(){

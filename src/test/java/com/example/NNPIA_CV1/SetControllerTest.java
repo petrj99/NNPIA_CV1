@@ -1,9 +1,9 @@
 package com.example.NNPIA_CV1;
 
-import controllers.SetController;
+import com.example.NNPIA_CV1.controllers.SetController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import services.GreetingService;
+import com.example.NNPIA_CV1.services.GreetingService;
 
 public class SetControllerTest {
     SetController setController;

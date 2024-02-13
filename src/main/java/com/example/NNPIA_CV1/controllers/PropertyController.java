@@ -1,7 +1,9 @@
-package controllers;
+package com.example.NNPIA_CV1.controllers;
 
-import services.GreetingService;
+import com.example.NNPIA_CV1.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class PropertyController {
     public GreetingService greetingService;
 

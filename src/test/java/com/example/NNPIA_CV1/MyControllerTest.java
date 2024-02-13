@@ -1,9 +1,10 @@
 package com.example.NNPIA_CV1;
 
-import controllers.MyController;
+import com.example.NNPIA_CV1.controllers.MyController;
 import org.junit.jupiter.api.Test;
-import services.GreetingService;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 public class MyControllerTest {
 
     @Test
